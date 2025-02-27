@@ -1,12 +1,14 @@
 {
   "name": "i2p",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
+  "description": "I2P (Idea to Project) - A software house website dedicated to turning innovative ideas into reality with expert web development solutions.",
+  "license": "MIT",
   "author": "Ali Raza",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -14,5 +16,24 @@
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "mongoose": "^8.10.1"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "i2p",
+    "idea to project",
+    "software house",
+    "web development",
+    "MERN stack",
+    "startup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliRazaAbro123/I2p.git"
+  },
+  "homepage": "https://i2product.vercel.app/"
 }
