@@ -631,7 +631,7 @@ footer {
 @media only screen and (max-width : 786px) {
     .logo img {
         position: absolute;
-        top: -30px;
+        top: 5px;
         left: 5px;
     }
 
@@ -641,8 +641,9 @@ footer {
 
     .front-description {
         width: 100%;
+        height: auto;
         padding: 5px;
-        line-height: 1.8rem;
+        line-height: 1.3rem;
     }
 
     .front-description h1 {
@@ -651,7 +652,7 @@ footer {
     }
 
     .front-description a {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     .second-section {
